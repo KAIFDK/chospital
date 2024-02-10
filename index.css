@@ -1,0 +1,260 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: rgba(98, 98, 94, 0.251);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(17, 155, 141);
+    color: white;
+    position: fixed;
+    top:0%;
+    width:100%;
+}
+ul{
+    display:flex ;
+}
+ul li {
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline:16px;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+    border-bottom: none;
+    
+}
+.logo{
+    font-size: 22px;
+    text-align: left;    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-color: rgb(11, 140, 140);
+     color: white;
+     height: 800px;    
+}
+.maintext h1{
+    font-size:55px;
+   
+}
+.maintext h3{
+    font-size:35px;
+    margin-top: 20px;
+   
+}
+.maintext button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(17, 155, 141);
+    color:white;
+    margin-top: 22px;
+    font-size: 18px;
+}
+.maintext a{
+    color: black;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+.maintext a:hover{
+    
+    color:white;
+    border-bottom: none;
+}
+.teams{
+    display: flex;
+    justify-content: center;
+
+
+}
+.teams .cards{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5px;
+    margin-inline: 20px;
+
+
+
+}
+.teams .cards:hover{
+    box-shadow: 0 2px 4px 6px rgb(0,0,0,0.3);
+
+}
+.cards img{
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    align-content: center;
+}
+.cards p{
+    margin-top: 11px;
+    margin-left: 11px;
+    text-align: center;
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+.speciality{
+    display: flex;
+    justify-content: center;
+
+}
+.speciality .spcard{
+    width: 300px;
+    padding: 22px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-inline: 20px;
+   
+
+}
+.speciality .spcard:hover{
+    box-shadow: 0 2px 4px 6px rgb(0,0,0,0.3);
+
+}
+.spcard{
+    width: 200px;
+
+}
+.spcard{
+    margin-top:11px ;
+}
+.contact{
+    width: 300px;
+    background-color: white;
+    padding: 22px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    
+
+    
+}
+.contact input{
+    width:90%;
+    font: size 18px;
+    padding: 9px;
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    background-color: rgb(200, 196, 196);
+    border-radius: 2px;
+    
+}
+.btn{
+    width: 100px;
+    height:30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(17, 155, 141)  ;
+    font-size: 17px;
+    margin-top: 22px;
+    transition: 0.8s;
+}
+.btn1{
+    color: #0b0505;
+    border: 2px solid black;
+}
+.btn:hover{
+    color: rgb(222, 222, 222) ;
+    border: 2px solid rgb(222, 222, 222)   ;
+}
+
+
+.contact h1{
+    color:rgb(17, 155, 141);
+    font-size: 50;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    margin-top: 66px;
+    background-color: rgb(17, 155, 141);
+    color:white;
+
+}
+.text p{
+    margin-top: 12px;
+
+} 
+.text p:hover{
+    color: black;
+    text-decoration: none;
+
+}
+.text h1{
+    color:black;
+}
+.head{
+    text-align: center;
+    padding: 80px;
+
+}
+.pacard{
+    display: flex;
+    justify-content: center;
+}
+.pacard .recards{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 5px;
+    margin-inline: 20px;
+    
+
+
+}
+.pacard .recards:hover{
+    box-shadow: 0 2px 4px 6px rgb(0,0,0,0.3);
+
+}
+.recards img{
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    align-content: center;
+}
+.recards{
+    width: 200px;
+
+}
+.recards{
+    margin-top:11px ;
+}
+.recards p{
+    margin-top: 11px;
+    margin-left: 11px;
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+    padding: 80px;
+
+}
+h3{
+    color: black;
+}
+
+
+
+
